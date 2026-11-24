@@ -1,0 +1,8 @@
+services:
+  app:
+    image: ghcr.io/kings-bilbil/aplikasi-komodo:latest
+    container_name: aplikasi-tes
+    pull_policy: always
+    ports:
+      - "3000:3000"
+    restart: unless-stopped

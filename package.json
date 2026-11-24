@@ -1,0 +1,12 @@
+{
+  "name": "aplikasi-komodo",
+  "version": "1.0.0",
+  "description": "Aplikasi web Express.js untuk praktikum CI/CD Komodo + GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
