@@ -9,6 +9,7 @@ app.get("/", (req, res) => {
     service: "aplikasi-tes",
     version: "1.1.0",
     message: "Auto-deployment CI/CD Komodo + GitHub Actions berhasil diperbarui!",
+    pipeline: "GitHub Actions -> GHCR (ARM64) -> Komodo Auto-Deploy",
     mahasiswa: "Nabil Nur Fauzan (H1101241046)",
     timestamp: new Date().toISOString()
   });
