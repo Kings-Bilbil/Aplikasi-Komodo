@@ -7,8 +7,8 @@ app.get("/", (req, res) => {
   res.status(200).json({
     status: "success",
     service: "aplikasi-tes",
-    version: "1.0.0",
-    message: "Aplikasi CI/CD Komodo + GitHub Actions berjalan normal",
+    version: "1.1.0",
+    message: "Auto-deployment CI/CD Komodo + GitHub Actions berhasil diperbarui!",
     mahasiswa: "Nabil Nur Fauzan (H1101241046)",
     timestamp: new Date().toISOString()
   });
