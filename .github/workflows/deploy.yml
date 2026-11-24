@@ -53,7 +53,7 @@ jobs:
             exit 0
           fi
 
-          payload='{}'
+          payload='{"ref":"refs/heads/main","commits":[{"added":[],"removed":[],"modified":["compose.yaml"]}]}'
           signature=$(printf '%s' "$payload" \
             | openssl dgst -sha256 -hmac "$WEBHOOK_SECRET" \
             | awk '{print $2}')
